@@ -19,6 +19,6 @@
     export default class Home extends Vue {
         msg: string = "abc";
         @Prop
-        
+
     }
 </script>
