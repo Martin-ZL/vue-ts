@@ -4,8 +4,8 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 describe("HelloWorld.vue", () => {
   it("renders props.msg when passed", () => {
-    const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
+    const msg: String = "new message";
+    const wrapper: any = shallowMount(HelloWorld, {
       propsData: { msg }
     });
     expect(wrapper.text()).to.include(msg);
