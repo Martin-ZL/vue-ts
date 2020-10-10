@@ -1,0 +1,13 @@
+$red: red;
+
+@mixin box-middle($pos) {
+    display: flex;
+    @if $pos == "all" {
+        justify-content: center;
+        align-items: center;
+    } @else if $pos == "x" {
+        justify-content: center;
+    } @else {
+        align-items: center;
+    }
+}
