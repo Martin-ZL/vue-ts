@@ -37,6 +37,7 @@ export default class HelloWorld extends Vue {
     color: $red;
   }
   ul {
+    list-style: none;
     @include box-middle("all")
   }
 }
